@@ -1,4 +1,4 @@
-/* ==UserScript==
+/* ==UserStyle==
 @name         Bandcamp Dark
 @version      1.8.0
 @description  Dark theme for Bandcamp
@@ -11,7 +11,7 @@
 @include      https://bandcamp.com/*
 @include      http://*.bandcamp.com/*
 @include      https://*.bandcamp.com/*
-==/UserScript== */
+==/UserStyle== */
 
 @-moz-document domain("bandcamp.com") {
     
