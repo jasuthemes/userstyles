@@ -4,4 +4,4 @@ Various UserStyles I have created or edited. A browser add-on is needed to insta
 
 List of styles:
 
-[Bandcamp Dark]()
+[Bandcamp Dark](https://github.com/jasuthemes/userstyles/tree/master/Bandcamp%20Dark)
