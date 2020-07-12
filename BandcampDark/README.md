@@ -1,6 +1,6 @@
 # Bandcamp Dark
 
-![Screenshot](screenshot1.png)
+![Screenshot](Screenshot1.png)
 
 A simple dark theme for [Bandcamp](https://bandcamp.com) based on the original work by [aricley](https://userstyles.org/styles/150014/bandcamp-dark-theme-17-10).
 
