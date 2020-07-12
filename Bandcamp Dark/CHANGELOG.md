@@ -1,3 +1,5 @@
+# Changelog
+
 16/10/19 - Initial Release
 
 03/11/19 - Fixed some Wordpress elements. This will mostly affect Bandcamp Daily.
