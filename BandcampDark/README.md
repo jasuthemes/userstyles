@@ -4,6 +4,8 @@
 
 A simple dark theme for [Bandcamp](https://bandcamp.com) based on the original work by [aricley](https://userstyles.org/styles/150014/bandcamp-dark-theme-17-10).
 
+---
+
 ## Installation
 
   A browser add-on is needed to install custom UserStyles.
