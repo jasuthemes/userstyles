@@ -3,4 +3,4 @@ This will include various UserStyles I have created or edited. A browser add-on 
 
 
 
-[Bandcamp Dark](https://github.com/jasuthemes/userstyles/tree/master/Bandcamp%20Dark)
+[Bandcamp Dark](https://github.com/jasuthemes/userstyles/tree/master/BandcampDark)
