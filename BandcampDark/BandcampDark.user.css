@@ -754,4 +754,21 @@
   #hub .fan-reviews .follow-fan a {
     background: #303030;
   }
+    
+    
+    /* 23/07/20 */
+
+    /* Show more/less releases from followed artists on feed */
+    #new-releases-vm .more-releases, #new-releases-vm .less-releases {
+	    background-color: #262626;
+    }
+
+    #new-releases-vm .more-releases:hover, #new-releases-vm .less-releases:hover {
+     background-color: #303030;
+    }
+
+    /* tags background on feed */
+    #stories-vm .story-innards .story-footer {
+        background-color: #303030;
+    }
 }
