@@ -38,3 +38,5 @@ A simple dark theme for [Bandcamp](https://bandcamp.com) based on the original w
 12/07/20 - Cleaned the code slightly. Still needs plenty of work. First git commit
 
 26/07/20 - Fixed a couple of elements on the feed page.
+
+15/09/20 - Fixed an element on community messages.
