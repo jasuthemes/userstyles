@@ -772,10 +772,19 @@
     background-color: #303030;
   }
     
+    
   /* 15/09/20 */
     
   /* Community messages background */
   .community-feed .story .lock-banner, .community-feed .story .main-section,       .community-feed .story > .actions {
     background: #262626;
+  }
+    
+    
+  /* 12/03/21 */
+    
+  /* Bandcamp weekly player background */
+  .bcweekly-player > .col+.col {
+    background-color: #262626;
   }
 }
