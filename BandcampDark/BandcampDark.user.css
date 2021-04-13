@@ -394,6 +394,9 @@
     /*-------------*/
     /*Added by jasu*/
     /*-------------*/
+    
+    
+    
     body {
         background: #303030;
     }
@@ -402,6 +405,8 @@
         background: #FFF0
     }
 
+    .checkout-order-vm .group,
+    .order-recap ul li,
     .themed .label-band-selector .bands-menu,
     .themed .label-band-selector .bands-menu .menu-artistpic {
         background: #262626;
@@ -416,51 +421,33 @@
         color: #949494;
     }
 
-    .tralbumData.tralbum-credits {
+    .tralbumData.tralbum-credits,
+    a, .tralbumData {
         color: white !important;
     }
 
-    .checkout-order-vm .group {
-        background: #262626;
-    }
-
-    .order-recap ul li {
-        background: #262626;
-    }
-
-    .shipping-address-pane {
+    .shipping-address-pane,
+    .shipping-address-pane .address-label,
+    .mixed-cart-title,
+    .download-titles .download-title strong,
+    .fan-bio{
         color: white;
     }
 
-    .shipping-address-pane .address-label {
-        color: white;
-    }
-
-    .mixed-cart-title {
-        color: white;
-    }
-
-    .download-titles .download-title strong {
-        color: white;
-    }
-
-    .fan-bio {
-        color: white;
-    }
-
-    #grid-tabs-sticky.fixed {
+    #grid-tabs-sticky.fixed,
+    #menubar-wrapper.header-rework-2018,
+    #menubar-wrapper.header-rework-2018 .menubar-outer,
+    .carousel-player-inner,
+    .carousel-player .progress-bar,
+    .menubar-2018,
+    .pager .pagenum,
+    .pager .nextprev {
         background: #262626;
     }
 
-    .carousel-player-inner {
-        background: #262626;
-    }
-
-    .carousel-player .progress-bar {
-        background: #262626;
-    }
-
-    .carousel-player .progress {
+    #pgFt,
+    .carousel-player .progress,
+    .carousel-player .playpause {
         background: #5c5c5c;
     }
 
@@ -478,19 +465,6 @@
         border-right: 5px solid white;
     }
 
-    .carousel-player .playpause {
-        border: 1px solid #5c5c5c;
-    }
-
-    a,
-    .tralbumData {
-        color: white !important;
-    }
-
-    #pgFt {
-        background-color: #5c5c5c;
-    }
-
     .menubar-2018 .user-menu {
         background-color: #5c5c5c;
         border: #5c5c5c 1px solid;
@@ -500,63 +474,28 @@
         overflow-y: hidden;
     }
 
-    #menubar-wrapper.header-rework-2018,
-    .menubar-2018 {
-        background-color: #262626;
-    }
-
-    #menubar-wrapper.header-rework-2018 .menubar-outer {
-        background-color: #262626;
-    }
-
-    .pager .pagenum {
-        background-color: #262626;
-    }
-
-    .pager .nextprev {
-        background-color: #262626;
-    }
-
 
     /* 03/11/19 */
-    .wordpress .aod-embed {
+    
+    #nonartarea,
+    #band-navbar,
+    .wordpress .aod-embed,
+    .purchases-item,
+    .dig-deeper .filters-bar.fixed,
+    .wordpress #comments,
+    .wordpress #header,
+    .wordpress #footer,
+    .has-rec-footer #pgFt,
+    .sidebar li,
+    .hub-component:nth-child(2n),
+    ol.tabs.fixed {
         background-color: #262626;
     }
 
-    #artist,
-    #album {
-        color: #fff;
-    }
-
-    #nonartarea {
-        background-color: #262626;
-    }
-
-    .wordpress #comments {
-        background: #262626;
-    }
-
-    .sidebar li {
-        background: #262626;
-    }
-
-    .wordpress #header {
-        background-color: #262626;
-    }
-
-    .wordpress #footer {
-        background: #262626;
-    }
-
-    .has-rec-footer #pgFt {
-        background-color: #262626;
-    }
-
-    #band-navbar {
-        background: #262626;
-    }
-
-    .back-to-label-link {
+    #settings-menubar li.highlighted,
+    #settings-menubar li.highlighted.active,
+    .back-to-label-link,
+    .item .info {
         background-color: #303030;
     }
 
@@ -566,20 +505,22 @@
     }
 
     a.custom-color,
-    .custom-link-color,
+    #artist,
+    #album,
     #trackInfo a:not(.notSkinnable),
     #trackInfo .buy-link,
     #tagArea a,
     #rightColumn a,
     #name-section a,
     #indexpage a,
-    .editable-grid a,
-    .featured-grid a,
     #band-navbar a,
     #merch-item p a,
     #merch-item .buy a,
     #merch-item .buy button,
     #merch-item .more-merch a,
+    .custom-link-color,
+    .editable-grid a,
+    .featured-grid a,
     .share-collect-controls a,
     .share-collect-controls button,
     .follow-unfollow,
@@ -594,32 +535,13 @@
     .featured-grid-name,
     .label-welcome .buttons a.new,
     .themed .label-band-selector a.themeable,
-    .tralbum-tags a {
+    .tralbum-tags a,
+    .nu-dialog .ui-widget-content {
         color: #fff;
-    }
-
-    .item .info {
-        background: #303030;
-    }
-
-    .hub-component:nth-child(2n) {
-        background: #262626;
     }
 
     .salesfeed .item-inner:hover {
         background: #5c5c5c;
-    }
-
-    .dig-deeper .filters-bar.fixed {
-        background: #262626;
-    }
-
-    ol.tabs.fixed {
-        background: #262626;
-    }
-
-    .purchases-item {
-        background-color: #262626;
     }
 
     #settings-menubar li.active {
@@ -627,11 +549,6 @@
         border-left: 2px solid #eaeaea;
         border-bottom: 1px solid #eaeaea;
         border-top: 1px solid #eaeaea;
-    }
-
-    #settings-menubar li.highlighted,
-    #settings-menubar li.highlighted.active {
-        background: #303030;
     }
 
     .rounded-gutter,
@@ -654,14 +571,8 @@
 
     /* 07/12/19 */
     #s-daily,
-    #s-daily input {
-        background: #262626;
-    }
-
-    dailyfooter {
-        background: #262626;
-    }
-
+    #s-daily input,
+    dailyfooter,
     .footer-gradient {
         background: #262626;
     }
@@ -670,15 +581,9 @@
         color: #fff;
     }
 
-    dailyfooter h2 {
-        -webkit-text-stroke: 0;
-    }
-
-    .section-header .outline-text {
-        -webkit-text-stroke: 0;
-    }
-
-    a.pagination-link {
+    dailyfooter h2,
+    a.pagination-link,
+    .section-header .outline-text{
         -webkit-text-stroke: 0;
     }
 
