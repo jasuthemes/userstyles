@@ -42,3 +42,5 @@ A simple dark theme for [Bandcamp](https://bandcamp.com) based on the original w
 15/09/20 - Fixed an element on community messages.
 
 12/03/21 - Changed background of Bandcamp Weekly player.
+
+13/04/21 - Added styling for the new live stream page and elements. Cleaned some old code.
