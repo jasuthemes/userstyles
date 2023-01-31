@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Bandcamp Dark
-@version      1.9.0
+@version      1.10.0
 @description  Dark theme for Bandcamp
 @author       jasu
 @license      GPL-3.0
@@ -767,5 +767,51 @@
     /* Fixed the bandcamp weekly player */
     .bcweekly-player > .col+.col {
         background: #303030;
+    }
+    
+     /* 15/04/21 */
+    /* Changed some elements on homepage */
+    .bd-section.factoid,
+    .salesfeed,
+    .carousel-bcweekly-container-container {
+        background: #1e1e1e;
+    }
+    
+    
+    /* 15/04/22 */
+    /* About us page */
+    main>section#testimonials {
+        background-color: #262626;
+    }
+    
+    main>section#testimonials section.filters button {
+        color: #878787;
+    }
+    
+
+    /* 31/01/23 */
+    /* Search bar tabs */
+   #main-search-container > form > ul.filter-list {
+        background-color: #262626;
+    }
+    
+    /* Search results */
+    form.menubar-search .search-autocomplete li a {
+        background-color: #303030;
+    }
+    
+    /* Search results hover */
+    form.menubar-search .search-autocomplete li a:hover {
+        background-color: #262626;
+    }
+    
+    /* "See all results" and "Music tagged with..." */
+    form.menubar-search .search-autocomplete li.results-see-all a, form.menubar-search .search-autocomplete li.results-tags a {
+        background-color: #262626;
+    }
+    
+    /* "See all results" hover */
+    form.menubar-search .search-autocomplete li.results-see-all a:hover {
+        background-color: #5c5c5c;
     }
 }
