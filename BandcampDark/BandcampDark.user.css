@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Bandcamp Dark
-@version      1.10.0
+@version      1.11.0
 @description  Dark theme for Bandcamp
 @author       jasu
 @license      GPL-3.0
@@ -813,5 +813,41 @@
     /* "See all results" hover */
     form.menubar-search .search-autocomplete li.results-see-all a:hover {
         background-color: #5c5c5c;
+    }
+
+    
+    /* 31/08/23 */
+    /* Multiple Bandcamp Daily elements*/
+    /* Player ffwd and rrwd icons */
+    article .next .icon {
+        background: url(https://raw.githubusercontent.com/jasuthemes/userstyles/master/BandcampDark/Resources/icon-ffwd-w.svg) no-repeat;
+        background-size: contain;
+        background-position: 50%;
+    }
+
+    article .prev .icon {
+        background: url(https://raw.githubusercontent.com/jasuthemes/userstyles/master/BandcampDark/Resources/icon-rrwd-w.svg) no-repeat;
+        background-size: contain;
+        background-position: 50%;
+    }
+
+    /* Add to wishlist button */
+    .mpwl.wishlist-msg svg {
+        fill: #fff;
+    }
+
+    /* Player progress bar handle */
+    .progress-bar-handle {
+        background: #fff;
+    }
+
+    /* Merch text on right */
+    mpmerchformats {
+        color: white;
+    }
+
+    /* Terms of Use page bold */
+    .bd .conspicuous {
+        background: none repeat scroll 0 0 black;
     }
 }
