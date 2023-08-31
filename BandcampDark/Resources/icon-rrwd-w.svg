@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="21px" height="12px" viewBox="0 0 21 12" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g transform="translate(-488.000000, -76.000000)" fill="#000000">
+      <path d="M507.388354,82.2576516 L497.411961,87.9674538 L497.426962,82.5812958 L488.016054,87.9674538 L488.032704,81.9888546 L488.049355,76.0102554 L497.430234,81.4065855 L497.445262,76.0102554 L507.388354,81.729997 L507.388354,76 L509,76 L509,88 L507.388354,88 L507.388354,82.2576516 Z" id="icon-rrwd" transform="translate(498.508027, 82.000000) rotate(-180.000000) translate(-498.508027, -82.000000)" style="fill: rgb(255, 255, 255);"/>
+    </g>
+  </g>
+</svg>
