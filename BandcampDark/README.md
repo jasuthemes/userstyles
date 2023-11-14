@@ -50,3 +50,5 @@ A simple dark theme for [Bandcamp](https://bandcamp.com) based on the original w
 31/08/23 - Multiple elements on Bandcamp Daily.
 
 28/09/23 - Minor Bandcamp Live elements.
+
+14/11/23 - Following popup.
