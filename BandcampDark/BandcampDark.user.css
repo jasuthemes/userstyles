@@ -861,4 +861,12 @@
     .show-type-container .headphone-icon {
         background: url(https://raw.githubusercontent.com/jasuthemes/userstyles/master/BandcampDark/Resources/headphone-outline-w.svg);
     }
+
+        
+    
+    /* 14/11/23 */
+    /* Following popup */
+    .ui-dialog.nu-dialog.blank-title .ui-dialog-titlebar {
+        background-color: #373737;
+    }
 }
