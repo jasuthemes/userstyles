@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Bandcamp Dark
-@version      1.14.0
+@version      1.15.0
 @description  Dark theme for Bandcamp
 @author       jasu
 @license      GPL-3.0
@@ -936,5 +936,68 @@
     
     .discover-upsell-container .upsell-text {
         background-color: #ffffff00;
+
+
+    /* 11/09/25 */
+    /* New menubar */
+    .corp-app-wrapper.full-page-app-wrapper .menu-bar, .menu-bar[data-v-7547a183] {
+        background-color: var(--gray600);
+        --menubar-background-color: var(--gray700);
+    }
+
+    /* Collections icon */
+    button.g-button svg[data-v-6804b60c], button.g-button[data-v-6804b60c] svg, a.g-button svg[data-v-6804b60c], a.g-button[data-v-6804b60c] svg {
+        fill: var(--white);
+    }
+    
+    /* Header logo */
+    svg.bandcamp-logo[data-v-cf965d7c] {
+        fill: var(--white);
+    }
+
+    body.corp[data-theme=light]:has(.homepage) {
+        --corp-page-background-color: var(--gray600);
+    }
+
+    /* Bandcamp Clubs */
+    .corp-page-section[data-v-56e65e95] {
+        background-color: var(--gray700);
+    }
+
+    /* Discover page categories - selected */
+    .chip-group.filled[data-v-0f267c60] .radio-item.selected {
+        background-color: var(--gray500);
+        --g-chip-border-color: var(--gray100);
+    } 
+
+    /* Discover page genres - selected */
+    button.chip-button.g-button.dark-mode {
+        background-color: var(--gray500);
+        color: var(--white);
+        --g-chip-border-color: var(--gray100);
+    }
+
+    /* Discover page selected sub genre */
+    .filters-banner[data-v-ff4b9b6a] .subgenre-filter {
+        background: var(--gray600);
+    }
+
+    /* Blend sub-genres */
+    .genre-filter .list-box.chip-group.subgenres[data-v-19d4a465] {
+        --secondary-transparency-light: rgb(255 255 255 / 30%)
+    }
+
+    /* Beeg play button */
+    button.g-button svg[data-v-6804b60c], button.g-button[data-v-6804b60c] svg {
+        fill: var(--gray700);
+    }
+    
+    button.g-button.dark-mode[data-v-6804b60c], a.g-button.dark-mode[data-v-6804b60c]{
+        --g-button-primary-color: var(--gray400);
+    }
+
+    /* Beeg play button hover */
+    a.g-button.dark-mode[data-v-6804b60c], button.g-button.dark-mode[data-v-6804b60c] {
+        --g-button-hover-color: var(--gray500);
     }
 }
