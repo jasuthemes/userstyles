@@ -17,6 +17,8 @@ A simple dark theme for [Bandcamp](https://bandcamp.com) based on the original w
 
 ## Changelog
 
+11/09/25 - Few updates. Looks like Bandcamp are creating the ground work for a native dark theme. Hopefully my misery will soon draw to an end.
+
 31/12/24 - Updated some new homepage elements.
 
 04/12/23 - Fixed the pop-up music player on personal collection page.
